@@ -80,7 +80,7 @@ activities = ['confirmed', 'false positive', 'candidate']
 
 slices = [confirmCount, falseCount, candidateCount]
 
-colors = ['#ff80bf', '#ff9933', '#ffffff']
+colors = ['#5BCEFA', '#F5A9B8', '#ffffff']
 
 plt.pie(slices, labels=activities, colors=colors, startangle=90, radius=1.2, autopct='%1.1f%%')
 
